@@ -1,0 +1,11 @@
+import { World } form ""cucumber;
+
+declare module "cucumnber" {
+
+//A place to store our test data while the test runs
+//So every step has access to our test data
+
+    interface World{
+        product: myLib.product
+    }
+}
