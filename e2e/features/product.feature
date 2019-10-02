@@ -1,4 +1,4 @@
-Feature: Peoduct Management
+Feature: Product Management
 
     Rules:
     1. You must be able to add a product
