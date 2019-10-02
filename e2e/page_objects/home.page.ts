@@ -10,7 +10,7 @@ export class HomePage {
      * @param Product - this is a product (name, description, price) that we want to find in the table.
      * @returns the element that is found (in ElementFinder)
      */
-    public findProductInTable = (product: myLib.product) => {
+    public findProductInTable = (product: myLib.Product) => {
         return element(by.cssContainingText("mat-cell", product.name));
     };
 
