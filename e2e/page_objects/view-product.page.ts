@@ -1,6 +1,6 @@
 import { $, by, element } from "protractor";
 
-export class viewProductPage {
+export class ViewProductPage {
 
             /** 
          * Used to create the locator for the Product name (it's parameterised as we don't know what product we've created)

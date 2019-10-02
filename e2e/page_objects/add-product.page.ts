@@ -1,6 +1,6 @@
 import { $, by, element } from "protractor";
 
-export class addProductPage {
+export class AddProductPage {
 
     public productNameField = $("#mat-input-0");
     public productDescriptionField = $("#mat-input-1");
